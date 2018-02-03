@@ -23,11 +23,11 @@ searchInput.addEventListener('keydown', function (e) {
 
 var doSearch = function doSearch(searchString) {
   var apiUrl = 'https://api.github.com/search/repositories?q=';
-  var tempApiSuffix = '&sort=stars&order=desc&page=2&per_page=';
+  var tempApiSuffix = '&sort=stars&order=desc&page=2&per_page=10';
   var maxTempApi = '10';
 
   if (searchString && searchString.length) {
-    var finalApiUrl = '' + apiUrl + searchString + tempApiSuffix + maxTempApi;
+    var finalApiUrl = '' + apiUrl + searchString + tempApiSuffix;
 
     resultsWrapper.classList.add('results--loading');
 
