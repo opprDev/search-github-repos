@@ -47,7 +47,7 @@ npm start
 
 ## About
 
-This repository was made thanks [Irem Lopsum](https://twitter.com/iremlopsum) and his [CodePen](https://codepen.io/iremlopsum/pen/NXVdbx) code. [Irem Lopsum](https://twitter.com/iremlopsum) is an UX & Front-End Developer at Swipes. You can follow him on  [SoundCloud](https://soundcloud.com/kristjanvool), [Twitter](https://twitter.com/iremlopsum) and [Dribbble](https://dribbble.com/iremlopsum).
+This repository was made thanks [Irem Lopsum](https://twitter.com/iremlopsum) and his [CodePen](https://codepen.io/iremlopsum/pen/NXVdbx) code. [Irem Lopsum](https://twitter.com/iremlopsum) is an UX & Front-End Developer at [Swipes](https://swipesapp.com/). You can follow him on  [SoundCloud](https://soundcloud.com/kristjanvool), [Twitter](https://twitter.com/iremlopsum) and [Dribbble](https://dribbble.com/iremlopsum).
 
 ### Acknowledgments
 
