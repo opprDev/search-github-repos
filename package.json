@@ -16,18 +16,8 @@
     "clean-source": "rimraf README.md src webroot package.json"
   },
   "devDependencies": {
-    "gh-pages-deploy": "^0.4.2"
-  },
-  "gh-pages-deploy": {
-    "staticpath": "dist",
-    "cname": "nope.org",
-    "prep": [
-      "build-sass",
-      "optimize-img"
-    ],
-    "post": [
-      "clean-source"
-    ],
-    "noprompt": false
-  },
+    "gh-pages-deploy": "^0.4.2",
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4"
+  }
 }
