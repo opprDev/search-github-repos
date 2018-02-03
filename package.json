@@ -17,5 +17,17 @@
   },
   "devDependencies": {
     "gh-pages-deploy": "^0.4.2"
-  }
+  },
+  "gh-pages-deploy": {
+    "staticpath": "dist",
+    "cname": "nope.org",
+    "prep": [
+      "build-sass",
+      "optimize-img"
+    ],
+    "post": [
+      "clean-source"
+    ],
+    "noprompt": false
+  },
 }
